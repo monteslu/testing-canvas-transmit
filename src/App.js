@@ -89,7 +89,7 @@ function drawCircle(ctx, x, y, radius) {
 }
 
 function draw() {
-  const canv = document.getElementById('canvas');
+  const canv = document.getElementById('visualizer');
   const ctx = canv.getContext('2d');
   ctx.fillStyle = `rgb(${rand(0, 255)}, ${rand(0, 255)}, ${rand(0, 255)})`;
   if (rand(0, 1)) {
